@@ -18,7 +18,7 @@ const UserDropdown = () => {
     const router = useRouter();
 
     const handleSignOut = async () => {
-        return router.push('/signin')
+        return router.push('/sign-in')
     }
 
     const user = {
@@ -65,7 +65,7 @@ const UserDropdown = () => {
                 </DropdownMenuItem>
                 <DropdownMenuSeparator className='hidden sm:block bg-gray-600' />
                 <nav className="sm:hidden">
-                    <NavItems/>
+                    <NavItems />
                 </nav>
             </DropdownMenuContent>
         </DropdownMenu>
